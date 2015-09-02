@@ -1,0 +1,42 @@
+{
+    "name":         "clanmunity/framework",
+    "description":  "Clanmunity cms Framework",
+    "keywords":     ["cms", "gamers", "clan"],
+    "type":         "cms",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name": "maclovr@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                          ">=5.3.3",
+
+        "symfony/class-loader":         "~2.6",
+        "symfony/http-foundation":      "~2.6",
+        "symfony/http-kernel":          "~2.6",
+        "symfony/routing":              "~2.6",
+        "symfony/event-dispatcher":     "~2.6",
+        "symfony/finder":               "~2.6",
+        "symfony/yaml":                 "~2.6",
+        "symfony/dependency-injection": "~2.6",
+        "symfony/console":              "~2.6"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "Clanmunity\\Framework": "Clanmunity/Framework" }
+    },
+    "autoload": {
+        "psr-0": { "Clanmunity\\Framework\\spec": "Clanmunity/Framework/spec/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}

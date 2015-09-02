@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Clanmunity\Component\Core
+        psr4_prefix: Clanmunity\Component\Core
+        src_path: .
