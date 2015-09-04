@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Clanmunity": "src",
+            "Clanmunity\\Framework": "src",
             "Clanmunity\\spec": "src/spec/"
         }
     },
