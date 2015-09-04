@@ -1,6 +1,6 @@
 {
     "name":         "clanmunity/framework",
-    "description":  "Clanmunity cms Framework",
+    "description":  "Clanmunity CMS Framework",
     "keywords":     ["cms", "gamers", "clan"],
     "type":         "cms",
     "license":      "MIT",
@@ -29,14 +29,14 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Clanmunity\\Framework": "Clanmunity/Framework" }
+        "psr-0": { "Clanmunity\\Framework": "src/Framework" }
     },
     "autoload": {
-        "psr-0": { "Clanmunity\\Framework\\spec": "Clanmunity/Framework/spec/" }
+        "psr-0": { "Clanmunity\\Framework\\spec": "src/Framework/spec/" }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "0.0.0-dev"
         }
     }
 }
