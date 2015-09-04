@@ -6,7 +6,8 @@
     "license":      "MIT",
     "authors": [
         {
-            "name": "maclovr@gmail.com"
+            "name": "maclovr",
+            "email": "maclovr@gmail.com"
         }
     ],
     "require": {
@@ -23,6 +24,7 @@
         "symfony/console":              "~2.6"
     },
     "require-dev": {
+        "phpunit/phpunit": "4.3.*",
         "phpspec/phpspec": "~2.2"
     },
     "config": {
@@ -30,10 +32,11 @@
     },
     "autoload": {
         "psr-0": {
-            "Clanmunity\\Framework": "src/Framework",
-            "Clanmunity\\Framework\\spec": "src/Framework/spec/"
+            "Clanmunity": "src",
+            "Clanmunity\\spec": "src/spec/"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "0.0.0-dev"
