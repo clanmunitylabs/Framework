@@ -33,7 +33,7 @@
     "autoload": {
         "psr-0": {
             "Clanmunity\\Framework": "src",
-            "Clanmunity\\spec": "src/spec/"
+            "Clanmunity\\Framework\\spec": "src/spec/"
         }
     },
     "extra": {
