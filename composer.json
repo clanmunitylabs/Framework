@@ -29,10 +29,10 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Clanmunity\\Framework": "src/Framework" }
-    },
-    "autoload": {
-        "psr-0": { "Clanmunity\\Framework\\spec": "src/Framework/spec/" }
+        "psr-0": {
+            "Clanmunity\\Framework": "src/Framework",
+            "Clanmunity\\Framework\\spec": "src/Framework/spec/"
+        }
     },
     "extra": {
         "branch-alias": {
